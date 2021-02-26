@@ -1,0 +1,7 @@
+h1 {font-family: fantasy;}
+p {font-family: fantasy;}
+#identified {font-family: serif; color: green}
+#identified2 {font-family: serif; color: pink}
+body {
+ background:url(background.jpg);
+}
