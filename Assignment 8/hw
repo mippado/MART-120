@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+<head>
+  <style>
+    h1 {font-family: fantasy; color: Gray}
+    h2 {font-family: fantasy; color: Gray}
+    li {font-family: monospace; color: Maroon;}
+    li {background-color: Gray}
+    h1 {background-color: Maroon}
+    h2 {background-color: Maroon}
+
+  </style>
+
+  <title>Homepage</title>
+</head>
+<body>
+
+  <h1><p style="text-decoration: underline;">My Favorite Hobbies</p></h1>
+    <ul>
+        <li>Fishing</li>
+        <li>Football</li>
+        <li>Playing with my dog</li>
+        <li>Hunting</li>
+    </ul>
+
+    <br>
+
+  <h2><p style="text-decoration: underline;">My Favorite Restaurants</h2>
+    <ul>
+      <li> <a href="http://www.fiestaenjalisco.net/" target="_new">Fiesta En Jalisco</a>
+      <li> <a href="https://www.tamarackbrewing.com/missoula" target="_new">Tamarack Brewing</a>
+      <li> <a href="https://www.thenotoriouspigbbq.com/" target="_new">Notorious PIG</a>
+    </ul>
+
+    <br>
+
+    <a href="Page2.html">Go To Page2</a>
+    <br>
+    <a href="Page3.html">Go To Page3</a>
+
+
+</body>
+
+</html>
