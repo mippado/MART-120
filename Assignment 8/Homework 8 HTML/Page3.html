@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+
+</script>
+
+<head>
+  <title>Page3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script>
+    var red
+
+  function myFunction() {
+    name = document.getElementById('txtName').value;
+    email = document.getElementById('txtEmail').value;
+    phone = document.getElementById('txtPhone').value;
+    terms = document.getElementById("yes").checked;
+
+    if(name == "")
+    {
+      window.alert("Name is Required")
+      document.getElementById("txtName").style.backgroundColor = "red";
+      document.getElementById("txtName").focus();
+    }
+    if(email == "")
+    {
+      window.alert("Email is Required")
+      document.getElementById("txtEmail").style.backgroundColor = "red";
+      document.getElementById("txtEmail").focus();
+    }
+    if(phone == "")
+    {
+      window.alert("Phone Number is Required")
+      document.getElementById("txtPhone").style.backgroundColor = "red";
+      document.getElementById("txtPhone").focus();
+    }
+    if(terms == [0])
+    { window.alert("Accept Terms of Agreement: Press space bar to confirm")
+      document.getElementById("yes").focus();
+    }
+
+
+  }
+  </script>
+
+
+</head>
+<body>
+  <h1><p style="text-decoration: underline;">Contact Us</p></h1>
+  <br>
+
+
+  <table>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" Id="txtName"  </td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="text" Id="txtEmail" ></td>
+    </tr>
+    <tr>
+      <td>Phone Number</td>
+      <td><input type="text" Id="txtPhone" ></td>
+    </tr>
+    <tr>
+      <td> Accept Terms of Agreement</td>
+      <td> <input type="radio" Id="yes" value="choice-1"/>
+          <label for="radio-choice-1">Yes</label>
+
+      </td>
+      </tr>
+
+        <td><button onClick="myFunction();">Submit</button></td>
+
+
+
+  </table>
+
+
+  <a href="Homepage.html">Go To Homepage</a>
+  <br>
+  <a href="Page2.html">Go To Page2</a>
+  </html>
